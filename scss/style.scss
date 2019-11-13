@@ -1,0 +1,24 @@
+$primary-color: #e25050;
+$secondary-color: #202020;
+$light-color: #fefefe;
+$p-color: #777777;
+
+$medium: 640px;
+$large: 1024px;
+
+@import "normalize";
+@import "layout";
+@import "elements";
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap");
+
+body {
+}
+
+/* Layout */
+.ba-container {
+  max-width: 1170px;
+}
+
+@import "header";
+@import "section-intro";
