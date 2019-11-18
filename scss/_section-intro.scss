@@ -1,20 +1,26 @@
 .ba-section-intro {
   background: url(../img/couple.jpg) 50% no-repeat;
-
+  background-size: cover;
   /* Style for "slide2" */
 
   padding: 218px 0;
 
   &__info {
+    margin-bottom: 3px;
     color: $light-color;
+    p {
+      margin-bottom: 3px;
+    }
     h1 {
       text-transform: uppercase;
-      padding: 20px 22px 18px;
-      max-width: 488px;
+      padding: 10px 20px 10px 10px;
+      max-width: 370px;
       font-size: 30px;
       font-weight: 700;
       background-color: $secondary-color;
       opacity: 0.9;
+      margin-bottom: 3px;
+      margin-top: 0;
     }
   }
 }
@@ -34,8 +40,9 @@
   display: inline-block;
   font-size: 12px;
   line-height: 24px;
-  padding: 11px 14px;
+  padding: 6px 19px;
   margin: 0;
   background-color: $primary-color;
   text-transform: uppercase;
+  margin-bottom: 3px;
 }

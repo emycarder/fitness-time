@@ -1,0 +1,74 @@
+.ba-section-sub-intro {
+  h3,
+  h2 {
+    font-size: 30px;
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 14px;
+    width: 263px;
+    line-height: 0;
+  }
+  p {
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+}
+.ba-min-con {
+  margin: 0 auto;
+  text-align: center;
+  h2 {
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+}
+
+.ba-row {
+  justify-content: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 640px) {
+    padding-left: 30px;
+  }
+  @media screen and (min-width: $large) {
+    & {
+      margin-top: 50px;
+    }
+  }
+
+  p {
+    width: 263px;
+  }
+}
+
+.ba-blood {
+  color: $primary-color;
+}
+
+.ba-inline-svg {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 640px) {
+  }
+  h3 {
+    padding-left: 10px;
+  }
+  svg {
+    position: relative;
+    line-height: 0;
+    display: block;
+    padding-bottom: 3px;
+  }
+}
+
+.ba-row > [class*="ba-col-"] {
+}
+
+.ba-col-small-12 + .ba-col-small-12 {
+  margin-bottom: 15px;
+}

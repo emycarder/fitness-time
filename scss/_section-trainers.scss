@@ -1,0 +1,61 @@
+.ba-section-trainers {
+  background-color: #212121;
+  & __title {
+    text-align: center;
+    font-weight: 700;
+
+    font-size: 84px;
+  }
+}
+
+.ba-row {
+  padding-right: 0 auto;
+  img {
+    display: block;
+    line-height: 0;
+    margin-bottom: -18px;
+  }
+  h3,
+  h4 {
+    color: $secondary-color;
+  }
+}
+
+.ba-sub-img {
+  background-color: $light-color;
+  padding: 21px;
+  padding-top: 30px;
+
+  h3 {
+    margin: 0;
+  }
+  h4 {
+    margin: 0;
+  }
+}
+
+.ba-section-trainers-title {
+  text-align: center;
+  font-weight: 700;
+
+  font-size: 24px;
+  line-height: 2;
+  &::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+    width: 45px;
+  }
+  @media screen and (max-width: 640px) {
+    margin-bottom: 25px;
+  }
+}
+
+.ba-human {
+  @media screen and (max-width: 640px) {
+    margin-bottom: 20px;
+  }
+  margin-bottom: 62px;
+}

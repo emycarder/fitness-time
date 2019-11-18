@@ -31,3 +31,57 @@ select {
 textarea {
 
 }
+
+.ba-float-label {
+  position: relative;
+}
+.ba-float-label__input::placeholder {
+  color: transparent;
+}
+.ba-float-label__placeholder {
+  font-size: 13px;
+  color: #555;
+  cursor: pointer;
+  position: absolute;
+
+  left: 0;
+  bottom: 13px;
+  transition: transform 0.2s;
+}
+.ba-float-label__input:focus ~ .ba-float-label__placeholder,
+.ba-float-label__input:not(:placeholder-shown) ~ .ba-float-label__placeholder {
+  transform: translateY(40px);
+}
+.ba-float-label__input:not(:placeholder-shown):valid {
+  box-shadow: 0 3px 0 0 #2ed573;
+  border-color: #2ed573;
+}
+.ba-float-label__input:not(:placeholder-shown):invalid {
+  box-shadow: 0 3px 0 0 #ff4757;
+  border-color: #ff4757;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in, box-shadow 0.2s ease-in;
+  display: block;
+  width: 100%;
+
+  border: none;
+  border-bottom: 2px solid #555;
+  box-shadow: 0 3px 0 0 #555;
+  border-radius: 0;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.2;
+  padding: 14px 0;
+
+  margin-bottom: 25px;
+}

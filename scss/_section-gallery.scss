@@ -1,0 +1,37 @@
+.ba-img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  img {
+    margin-bottom: 25px;
+  }
+}
+
+.ba-section-gallery {
+  p {
+    /* Style for "Praesent p" */
+    text-align: center;
+    width: 524px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 12px;
+  }
+  h2 {
+    color: $secondary-color;
+    text-align: center;
+    line-height: 2;
+    font-size: 24px;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      background: $secondary-color;
+      margin: 0 auto;
+      width: 45px;
+    }
+  }
+}
