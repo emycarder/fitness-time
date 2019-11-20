@@ -2,6 +2,7 @@ $primary-color: #e25050;
 $secondary-color: #202020;
 $light-color: #fefefe;
 $p-color: #777777;
+$small: 640px;
 
 $medium: 640px;
 $large: 1024px;
@@ -32,6 +33,7 @@ body {
 @import "section-trainers";
 @import "section-gallery";
 @import "section-price";
+@import "section-contact";
 h1,
 h2,
 h3,

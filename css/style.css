@@ -903,8 +903,6 @@ body {
   @media screen and (min-width: 1024px) {
     .ba-row {
       margin-top: 50px; } }
-  .ba-row p {
-    width: 263px; }
 
 .ba-blood {
   color: #e25050; }
@@ -1099,6 +1097,9 @@ body {
 
 .ba-first-freak {
   border-right: 2px solid rgba(255, 168, 168, 0.3); }
+
+.ba-section-contact {
+  background: black url(../img/bg-img.png); }
 
 h1,
 h2,
